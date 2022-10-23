@@ -1,4 +1,3 @@
-# PHP-2550-Project
 # Repository for the final project in PHP 2550, Fall 2022 for Nathan Provost and Antonella Basso
 
 ## Progress as of 10/23/2022:
