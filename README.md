@@ -14,6 +14,6 @@ The R file (Final Project Code.R) contains all the code in the code appendix of 
 
 The .csv file LMdata contains the data that we primarily used throughout our analysis.
 
-The .bib file contains the sources used and cited in our report and code.
+The .bib file (called pbib.bib) contains the sources used and cited in our report and code.
 
 We could not upload a dataset containing all the variables we did not use, but since most of them were missing and we addressed them as needed in the PDF report, not much is lost from this.
