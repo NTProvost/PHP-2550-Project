@@ -7,7 +7,7 @@ This repository contains the R file, R Markdown file, and PDF rendering of the R
 
 We then moved on to some exploratory data analysis. We began by discussing the dataset available to us, where it came from, how it was assembled, and what its major flaws are. We then examined the distributions of two numerical variables throughly, and grouped different visualizations of them by sources to get a sense of the mechanisms in the dataset. We examined the missingness of the variables in the dataset, which was substantial. We commented on the locations present in the dataset and which kinds of listeria serovars were present. Finally, we summarized our results and discuss future modeling considerations.
 
-The R Markdown file (Final Project.rmd) in this repository is what was used to generate the PDF report (Final.Project.10.23.2022) that is also present in the repository.
+The R Markdown file (Final Project.Rmd) in this repository is what was used to generate the PDF report (Final.Project.10.23.2022) that is also present in the repository.
 
 The R file (Final Project Code.R) contains all the code in the code appendix of the R Markdown file without any text.
 
