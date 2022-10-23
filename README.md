@@ -11,6 +11,6 @@ The R Markdown file (Final Project.rmd) in this repository is what was used to g
 
 The R file (Final Project Code.R) contains all the code in the code appendix of the R Markdown file without any text.
 
-The .csv file called LMdata.all contains all of the possible variables at our disposal from the NCBI's database (see sources in PDF).
-
 The .csv file LMdata contains the data that we primarily used throughout our analysis.
+
+We could not upload a dataset containining all the variables we did not use, but since most of them were missing and we addressed them as needed in the PDF report, not much is lost from this.
