@@ -1,7 +1,7 @@
 # PHP-2550-Project
 Repository for the final project in PHP 2550, Fall 2022 for Nathan Provost and Antonella Basso
 
-Progress as of 10/21/2022:
+Progress as of 10/23/2022:
 
 This repository contains the R file, R Markdown file, and PDF rendering of the R Markdown file we used for our project, which currently only employs exploratory data analysis methods and a brief literature review. We begin by exploring some of the quantitative and qualitative work that has already been done regarding the propagation of listeria as a foodborne illness. We discuss many of the biological studies that have builti phylogenetic models of listeria and worked to identify which strains of listeria (as classified by serovar) tend to be the worst for human health. We then explore some more quantitative studies that have examined the impact of listeria, what they found, and how their methods worked. Though we do discuss the methods of these studies, we try not to go into too much detail, mainly discussing which methods worked better than others. More detailed information on methodology will be included in the methods section.
 
