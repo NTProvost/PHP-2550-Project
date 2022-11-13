@@ -6,7 +6,7 @@ This repository contains the R file, R Markdown file, and PDF rendering of the R
 
 We then moved on to some exploratory data analysis. We began by discussing the dataset available to us, where it came from, how it was assembled, and what its major flaws are. We then examined the distributions of two numerical variables throughly, and grouped different visualizations of them by sources to get a sense of the mechanisms in the dataset. We examined the missingness of the variables in the dataset, which was substantial. We commented on the locations present in the dataset and which kinds of listeria serovars were present. Finally, we summarized our results and discuss future modeling considerations.
 
-A methodological plan with a rough analysis was then added, with the appropriate PDF, R Markdown file, and R file. Our goals were updated and revised and went outlined our plan moving forward. We then tested out a few key features of our methodologies and updated this repository
+A methodological plan with a rough analysis was then added, with the appropriate PDF, R Markdown file, and R file. Our goals were updated and revised and went outlined our plan moving forward. We then tested out a few key features of our methodologies and updated this repository. The method of k-means clustering and the packages used are explained sufficiently, along with some detail of our primary diagnostic method, the silhouette coefficient. Elementary statistical tests that we plan to use are mentioned and explained, and our approach is motivated from the viewpoint of the data. Tables and visuals are provided in small numbers to give the reader an idea of the results we will be providing in future updates.
 
 ## Summary of Files Included
 
