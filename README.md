@@ -1,27 +1,32 @@
-# Repository for the Final Project in PHP 2550, Fall 2022 for Nathan Provost and Antonella Basso
+# High-Risk Serovar Prevalence in Sources of *Listeria monocytogenes*: A Clustering Analysis of Food-Borne Illness
+# (Repository for the Final Project in PHP 2550, Fall 2022 for Nathan Provost and Antonella Basso)
 
-## Progress as of 11/13/2022:
+This repository contains the appropriate files associated with a clustering analysis of Listeria monocytogenes that we conducted as part of PHP 2550 for the fall of 2022. Our abstract is provided below. 
 
-This repository contains the R file, R Markdown file, and PDF rendering of the R Markdown file we used for our project, which currently only employs exploratory data analysis methods and a brief literature review. We begin by exploring some of the quantitative and qualitative work that has already been done regarding the propagation of listeria as a foodborne illness. We discuss many of the biological studies that have builti phylogenetic models of listeria and worked to identify which strains of listeria (as classified by serovar) tend to be the worst for human health. We then explore some more quantitative studies that have examined the impact of listeria, what they found, and how their methods worked. Though we do discuss the methods of these studies, we try not to go into too much detail, mainly discussing which methods worked better than others.
+## Abstract
 
-We then moved on to some exploratory data analysis. We began by discussing the dataset available to us, where it came from, how it was assembled, and what its major flaws are. We then examined the distributions of two numerical variables throughly, and grouped different visualizations of them by sources to get a sense of the mechanisms in the dataset. We examined the missingness of the variables in the dataset, which was substantial. We commented on the locations present in the dataset and which kinds of listeria serovars were present. Finally, we summarized our results and discuss future modeling considerations.
+### Relevance: Listeria monocytogenes (hereafter listeria) is a dangerous species of bacteria that poses a direct threat to public health, and the association between severe strains of listeria and their sources of origin has not been studied with sufficient precision and attention to detail.
 
-A methodological plan with a rough analysis was then added, with the appropriate PDF, R Markdown file, and R file. Our goals were updated and revised and went outlined our plan moving forward. We then tested out a few key features of our methodologies and updated this repository. The method of k-means clustering and the packages used are explained sufficiently, along with some detail of our primary diagnostic method, the silhouette coefficient. Elementary statistical tests that we plan to use are mentioned and explained, and our approach is motivated from the viewpoint of the data. Tables and visuals are provided in small numbers to give the reader an idea of the results we will be providing in future updates.
+### Goals: We endeavor to create two clustering models for data pertaining to the sources, collection times, minimum self-same distances, and genetic information of various strains of listeria, so that we can assess the intensity of particularly problematic strains within clusters. We also aim to compare our new models to a pre-existing genetic cluster model included in the dataset in terms of similarity.
+
+### Methods and Setting: We employ traditional k-means clustering with optimal cluster selection using silhouette coefficients and network clustering with similarity weighting through the $\texttt{linkcomm}$ package in R [@s15]. Data is assessed for the time period between 2017 and late 2022, with each year divided into four quarters. Sources of isolation are grouped coarsely and missing data is not used in our analysis, which allows for 2290 unique strains of listeria to be analyzed.
+
+### Outcomes of Interest: Serovar 4b prevalence by cluster, source prevalence by cluster, Rand index values, silhouette coefficient plots, community centrality, and community modularity are all outcomes of interest. Visualizations of cluster interactions and networks are also objects of interest.
+
+### Results: A strong sense of similarity exists between our sample networks and the SNP model, while a moderate sense of similarity exists between our k-means model and both our network model and the genetic model. Both genetic and non-genetic factors appear to influence serovar 4b prevalence, but specific recommendations cannot be made. Our methods provide framework for future research and reproductions.
+
+### Conclusion: It is likely that severe strains of listeria manifest more frequently in specific isolation sources, but our analysis is to limited to provide any further guidance on this matter. Future studies should aim to atomize isolation sources into more precise groups in order to better understand the relationship between strain severity and source. However, our methodology has laid the groundwork for more intensive research.
 
 ## Summary of Files Included
 
-Exploratory Data Analysis Code.R contains all the code used in our exploratory data analysis.
+Final Report (Code).R includes all associated coded used in this project.
 
-Literature Review and Exploration.Rmd contains the annotated coding and explanation that was used to render our first report.
+Final Report.Rmd is the R Markdown file that we used to create our final report.
 
-Literature Review and Exploration.pdf is a PDF rendering of the report assembled in the corresponding R Markdown file.
+Final Report.pdf is the official copy of our report as submitted.
 
-Methods and Analysis Code.R contains all the code used to conduct our rough, initial analysis when detailing our methods.
+LMdata.csv is the dataset we used for our project.
 
-Methods and Analysis Code.Rmd contains the annotated coding and explanation that was used to render our subsequent methodology report.
+README.md is the Markdown file outlining our project (as shown here).
 
-Methods and Analysis Plan.pdf is a PDF rendering of our subsequent methods and analysis report.
-
-LMdata.csv contains the data that we primarily used throughout our analysis.
-
-pbib.bib contains the sources used and cited in our literature review.
+pbib.bib is the Bibtex file containing the sources used and cited in our literature review.
