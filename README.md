@@ -25,7 +25,7 @@ It is likely that severe strains of listeria manifest more frequently in specifi
 
 ## Summary of Files Included
 
-Final Report (Code).R includes all associated coded used in this project.
+Final Report (Code).R includes all associated code used in this project.
 
 Final Report.Rmd is the R Markdown file that we used to create our final report.
 
