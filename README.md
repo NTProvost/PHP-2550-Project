@@ -12,7 +12,7 @@ Listeria monocytogenes (hereafter listeria) is a dangerous species of bacteria t
 We endeavor to create two clustering models for data pertaining to the sources, collection times, minimum self-same distances, and genetic information of various strains of listeria, so that we can assess the intensity of particularly problematic strains within clusters. We also aim to compare our new models to a pre-existing genetic cluster model included in the dataset in terms of similarity.
 
 ### Methods and Setting: 
-We employ traditional k-means clustering with optimal cluster selection using silhouette coefficients and network clustering with similarity weighting through the $\texttt{linkcomm}$ package in R [@s15]. Data is assessed for the time period between 2017 and late 2022, with each year divided into four quarters. Sources of isolation are grouped coarsely and missing data is not used in our analysis, which allows for 2290 unique strains of listeria to be analyzed.
+We employ traditional k-means clustering with optimal cluster selection using silhouette coefficients and network clustering with similarity weighting through the $\texttt{linkcomm}$ package in R (Kalinka and Tomancak 2011). Data is assessed for the time period between 2017 and late 2022, with each year divided into four quarters. Sources of isolation are grouped coarsely and missing data is not used in our analysis, which allows for 2290 unique strains of listeria to be analyzed.
 
 ### Outcomes of Interest: 
 Serovar 4b prevalence by cluster, source prevalence by cluster, Rand index values, silhouette coefficient plots, community centrality, and community modularity are all outcomes of interest. Visualizations of cluster interactions and networks are also objects of interest.
